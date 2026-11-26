@@ -1,0 +1,7 @@
+et csv = "manzana,pera,uva,mango,banano";
+
+const frutas = csv.split(",");
+console.log(frutas.length); // 5
+
+const unido = frutas.join("-");
+console.log(unido); // manzana-pera-uva-mango-banano
