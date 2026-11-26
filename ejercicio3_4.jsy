@@ -1,0 +1,7 @@
+const frase = "JavaScript es difícil";
+
+const palabra = frase.slice(14);
+console.log(palabra); // difícil
+
+const resultado = frase.replace("difícil", "poderoso");
+console.log(resultado); // JavaScript es poderoso
